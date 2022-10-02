@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sichen Bao Portfolio</title>
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="./css/process.css" rel="stylesheet">
+  </head>
+  <body>
+    
+	<nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand text-light ml-4" href="./index.html">SICHEN BAO</a>
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-light font-weight-bolder" href="./bio.html">BIOGRAPHY <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light font-weight-bolder" href="./mywork.html">MY WORK <span class="sr-only">(current)</span></a>
+          </li>
+		  <li class="nav-item active">
+            <a class="nav-link text-light font-weight-bolder" href="./timeline.html">TIMELINE <span class="sr-only">(current)</span></a>
+          </li>
+		  <li class="nav-item active">
+            <a class="nav-link text-light font-weight-bolder" href="./contact.html">CONTACT ME <span class="sr-only">(current)</span></a>
+          </li>
+		  <li class="nav-item active">
+            <a class="nav-link text-light font-weight-bolder" href="./process.html">PROCESS <span class="sr-only">(current)</span></a>
+		  </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>  
+	 
+	<section>
+		<div class="title">
+			<div class="col-10">
+              <h2 class="display-1">Developing Process</h2>
+			</div>
+		</div>
+	</section>
+	  
+	  
+	  
+    <div class="container mt-2">
+		<div class="jumbotron" style="background-color: rgba(255, 255, 255, 0.4)">
+			<div class="col-12">
+			  <div class="media">
+				<div class="profile-media-body pl-3">
+					My idea of building a personal website is to help people get to know who I am and use it to promote and document some of my photographs and videos at the same time. 
+					<br>
+					First, I picked four inner typologies, a content heavy page “Biography” for my information and resume, a photo-rich page “My Work”, a time-based page “Timeline” and a form page “Contact Me”. After I decided what my four inner pages are, it is time to design the style of the inner pages. I get a lot of inspirations from my old design for CCT 260 shown below.
+					<br>
+					I keep the color tone becuase bule and purple are my favourite colors. I think they can represent me the most. Furthermore, I want to make sure the color is not too monotone and lost its contrast, so I add an orange background color to where the dark texts may appear too blend in with the background image. 
+				</div>
+			   </div>
+			 </div>
+			 <div class="row col-12 pt-4 pl-5">
+				<img src="images/old-design1.jpg" width="420px" height="300px" alt="old design 1">
+				<img style="margin-left: 80px;" src="./images/old-design2.jpg" width="420px" height="300px" alt="old design 2">
+			 </div>
+        </div>
+     </div>
+	  
+	 <div class="container mt-2">
+		<div class="jumbotron" style="background-color: rgba(255, 255, 255, 0.4)">
+			<div class="col-12">
+			  <div class="media">
+				<div class="profile-media-body pl-3">
+					Here are some initial wireframe sketches with my thoughts on different visual components listed on the side, as you can see I made a lot of changes after I started codings. 
+				</div>
+			   </div>
+			 </div>
+			 <div class="row col-12 pt-4 pl-5">
+				<img src="./images/main-design.jpg" width="420px" height="300px" alt="old design 1">
+				<img style="margin-left: 80px;" src="./images/bio-design.jpg" width="420px" height="300px" alt="old design 2">
+			 </div>
+			<div class="row col-12 pt-4 pl-5">
+				<img src="./images/mywork-design.jpg" width="420px" height="300px" alt="old design 1">
+				<img style="margin-left: 80px;" src="./images/timeline-design.jpg" width="420px" height="300px" alt="old design 2">
+			 </div>
+        </div>
+     </div>
+
+	 <div class="container mt-2">
+	 	<div class="jumbotron" style="">
+			<div class="col-md-12 col-sm-12 mb-5">
+			  <div class="media">
+				<img class="mr-3" src="images/code-help.jpg" width="450px" height="350px" alt="photo of myself">
+				<div class="profile-media-body">
+					The most challenging part to code is “My Work” page, I wanted to included a carousel and picture modals in my page but I’m not very familiar with the Javascript yet, so I tried a lot of times to fixed the problem, I think the one took the longest time is trying to apply the modal effect on every picture. But luckily I found some help on 
+					<a style="text-decoration: underline" href="https://stackoverflow.com/questions/47798971/several-modal-images-on-page">this website</a> and fixed the problem.
+					<br>
+					But the caption on the carousel still appears on top of the modals when I click on the modal pictures. So I have to get rid of 'z-index', then It worked.
+				</div>
+			  </div>
+		   </div>
+		</div>
+	 </div>
+	  
+	  
+	  
+    <hr class="mt-5">
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © SichenBao. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../CCT360/bootstrap-portfolio/js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../CCT360/bootstrap-portfolio/js/popper.min.js"></script>
+    <script src="../CCT360/bootstrap-portfolio/js/bootstrap-4.4.1.js"></script>
+	   
+	  
+  </body>
+</html>

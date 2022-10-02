@@ -1,0 +1,56 @@
+
+/* Contact Me CSS Document */
+
+body {
+  background: linear-gradient(rgba(106, 121, 169, 0.6) 0%, rgba(75, 127, 195, 0.6) 51%, rgba(108, 106, 169, 0.6) 75%);
+}
+
+/* nav css*/
+.navbar-expand-lg{
+	background-color: #95abd2;
+}
+.navbar-brand{
+	color: #fff;
+}
+.navbar {
+	background-color: #95abd2;
+	padding: 0px;
+	height: 60px;
+}
+.nav-item{
+	display: block;
+	color: #fff;
+	padding: 10px 30px;
+}
+.nav-item:hover {
+	background-color: #6b82aa;
+	color: #fff;
+	padding: 10px 30px;
+}
+
+/* title css*/
+.title h2 {
+	color: #fff;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	margin-top: 63px;
+	margin-left: 120px;
+	margin-bottom: 70px;
+	background-color: rgba(85, 158, 231, 0.45);
+    top: 5em;
+    width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+/* contact css*/
+.needs-validation{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.text-center button {
+	background-color: #49A044;
+	border-color: #49A044;
+}
+.text-center button:hover {
+	background-color: #387A34;
+	border-color: #387A34;
+}

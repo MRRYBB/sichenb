@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/* MY WORK CSS */
+
+/* nav css*/
+.navbar-expand-lg{
+	background-color: #95abd2;
+}
+.navbar-brand{
+	color: #fff;
+}
+.navbar {
+	background-color: #95abd2;
+	padding: 0px;
+	height: 60px;
+}
+.nav-item{
+	display: block;
+	color: #fff;
+	padding: 10px 30px;
+}
+.nav-item:hover {
+	background-color: #6b82aa;
+	color: #fff;
+	padding: 10px 30px;
+}
+
+/* video placeholer css*/
+.video-placeholder {
+	position: fixed;
+    right: 0;
+    top: 0em;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.video-placeholder video {
+	height: 100%;
+	vertical-align: middle;
+	width: 100%;
+}
+.title h2{
+	color: #fff;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	margin-top: 63px;
+	margin-left: 120px;
+	margin-bottom: 70px;
+	background-color: rgba(85, 158, 231, 0.45);
+    top: 5em;
+    width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+/* Carousel CSS*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	height: 50px;
+	width: 50px;
+}
+.carousel-caption h3 {
+	font-size: 3em;
+	font-family: 'Montserrat', sans-serif;
+}
+.carousel-caption p {
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Modal CSS */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.75;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#modal-caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content,
+#modal-caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+	
+	
+	
+/* video gallery css*/
+.video-gallery h4 {
+	color: #f89e42;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
